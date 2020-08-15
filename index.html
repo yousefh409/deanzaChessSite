@@ -1,85 +1,70 @@
+<!-- DA CHESS. Originally built by Yousef H, lorem, and lorem. Website overhaul by Ayman A. -->
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<html lang="en" dir="ltr" locale="en_us" user-region="north-america">
 
-
-<head>
-  <link rel="stylesheet" type="text/css" href="chessWeb.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<head data-buildNum="x1.01::69">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+  <!-- Meta -->
   <title>DA Chess</title>
+  <meta name="robots" content="index">
+  <meta name="title" content="DA Chess">
+  <meta name="author" content="De Anza Chess Club">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="assets/images/da_chess_logo.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="assets/images/da_chess_logo.png">
+  <meta property="google:search-sre-monitor" content="en_us">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
 <body>
+  <header>
+    <nav id="nav"></nav>
+    <h1>The De Anza Chess Club</h1>
+    <button><a href="#about">About</a></button>
+  </header>
 
-  <h1 class="pageTitle">Welcome to the official De Anza Chess Club Website</h1>
-  <div class="topnav">
-    <a  href="Home.html" style="background-color: grey;">Home</a>
-    <a href="Tournament Info.html">Tournament Info</a>
-    <a href="Meeting Notes.html">Meeting Notes</a>
-    <a href="Support.html">Support</a>
-</div>
-
-  <section>
-    <img class="mySlides" src="Logo.png">
-    <img class="mySlides" src="Chess1.jpg">
-    <img class="mySlides" src="Chess2.jpg">
-  
-  </section>
-  <section class="w3-container w3-center w3-content" style="">
-    <h2 class="w3-wide">About the De Anza Chess Club</h2>
-    <p class="w3-opacity"><i>Inspiring and Creating exceptional Chess Players</i></p>
-    <p class="w3-justify">We are a group of highly motivated and passionate chess players who study different chess techniques, tactics, and participate in local tournaments. We meet every Tuesday from 1:30 to 2:30 in room 100 in the De Anza Library. If you want to attend, just show up and make sure to have a "chess.com" account since that will be the main platform that we will be using!</p>
+  <section id="about">
+    <h2>About the De Anza Chess Club</h2>
+    <h3><i>Inspiring and creating exceptional chess players</i></h3>
+    <p>We are a group of highly motivated and passionate chess players who study different chess techniques, tactics, and participate in local tournaments. Our public meetings are held every Tuesday from 1:30pm to 2:30pm in room 100 at the De Anza Library. For your convince please setup a <a href="https://chess.com">chess.com</a> account prior to attendance.</p>
   </section>
 
-  <section class="w3-container w3-center w3-content" style="">
-    <h2 class="w3-wide">Contact Us</h2>
-    <p class="w3-justify">Feel free to contact us on any of our social media platforms. Both our Instagram and Facebook tags are "deanzachess". You can also email us at "deanzachess@gmail.com". Also feel free to drop by our weekly meetings, and talk to us there. We look forward to hearing from you!</p>
-  </section>
-  
-  <section class="w3-container w3-center w3-content">
-    <h2 class="w3-wide">Meet the Officers</h2>    
-  </section>  
-  
-  <section class="w3-row-padding w3-center w3-light-grey">
-    <article class="w3-third">
-      <h4>Yusuf Sallam</h4>
-      <img src="YousefS.jpg" alt="Random Name" style="width:50%">
-      <br>
-      <h5>Vice President of Internal Affairs and Co-FounderPresident and Co-Founder</h5>
-   </article>
-  
-   <article class="w3-third">
-     <h4>Ibrahim Mansour</h4>
-     <img src="Ibrahim.jpg" alt="Random Name" style="width:50%">
-     <br>
-     <h5>President and Co-Founder</h5>
-    </article>
-  
-    <article class="w3-third">
-      <h4>Yousef Helal</h4>
-      <img src="YousefH.jpg" alt="Random Name" style="width:50%">
-      <br>
-      <h5>Vice President of External Affairs and Co-Founder</h5>
-    </article>
+  <section id="contact">
+    <h2>Contact the De Anza Chess Club</h2>
+    <p>Feel free to contact us on any of our social media platforms. Both our Instagram and Facebook tags are "deanzachess". You can also email us at "<a href="mailto:deanzachess@gmail.com">deanzachess@gmail.com</a>" or hang out with us on <a href="#">Discord</a>. We look forward to hearing from you!</p>
   </section>
 
-  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-	  <h5> Make sure to follow us on Instagram and Facebook! If you have any questions please do not hesitate to contact us!! </h5>
-    <a href="https://facebook.com/deanza.chess.9"><i class="fa fa-facebook-official"></i></a>
-    <a href="https://instagram.com/deanzachess"><i class="fa fa-instagram"></i></a>
-    <a href="mailto:deanzachess@gmail.com"><i class="fa fa-envelope-o"></i></a>
+  <section id="officers">
+    <h2>Our co-founders</h2>
+    <div id="row">
+      <div class="columns">
+        <img src="assets/images/officer_3.jpg" alt="Image of Yusuf Sallam.">
+        <hr>
+        <h4>Yusuf Sallam</h4>
+        <h5>VP of Internal Affairs</h5>
+      </div>
+      <div class=" columns">
+        <img src="assets/images/officer_1.jpg" alt="Image of Ibrahim Mansour.">
+        <hr>
+        <h4>Ibrahim Mansour</h4>
+        <h5>President</h5>
+      </div>
+      <div class="columns">
+        <img src="assets/images/officer_2.jpg" alt="Image of Yousef Helal.">
+        <hr>
+        <h4>Yousef Helal</h4>
+        <h5>VP of External Affairs</h5>
+      </div>
+    </div>
+  </section>
 
-    <p class="w3-medium">
-    If you want to view the official De Anza Club Constitution click <a href="https://docs.google.com/document/d/16hkCBBiRBab0R5cbWGACp3aBkty7rf8jSpmA3pfYhrE/edit?usp=sharing" target="_blank">here</a>
-    </p>
-  </footer>
+  <footer id="footer"></footer>
 
-  <script type="text/javascript" src="chessWeb.js?version=5"></script>
-
+  <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>

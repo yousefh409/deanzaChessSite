@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  border-radius: 12px;
+  background-color: grey;
+}
+
+nav {
+  padding: 2%;
+  overflow: hidden;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+#menu_home {
+  padding: 16px 12px 12px 12px;
+}
+
+#menu_home img {
+  width: auto;
+  height: 50px;
+}
+
+header {
+  height: 80vh;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("assets/images/hero.jpg");
+}
+
+button {
+  border: none;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: lightgrey;
+}
+
+button a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+section {
+  margin: 6% 12%;
+  text-align: center;
+}
+
+#row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columns {
+  padding: 2%;
+  flex: 33.33%;
+  margin: 2% 6%;
+  align-items: center;
+  border-radius: 12px;
+  justify-content: center;
+  background: lightgray;
+}
+
+.columns img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: solid grey 6px;
+}
+
+footer {
+  padding: 2%;
+  text-align: center;
+  background: lightgrey;
+}
+
+@media screen and (max-width: 600px) {
+  /* TODO: fix below */
+  .columns {
+    width: 100%;
+  }
+}
